@@ -8,3 +8,22 @@ $brand-primary: darken(#428bca, 20%);
 
 // the ~ allows you to reference things in node_modules
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
